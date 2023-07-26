@@ -1,0 +1,43 @@
+.home-page{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fafafa;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/business-2.jpg') center no-repeat;
+    background-size: cover;
+
+    
+}
+
+.home-page p{
+    font-size: 20px;
+    line-height: 1.3em;
+    text-align: center;
+}
+
+.home-page h1{
+    font-size: 50px;
+    line-height: 1.3em;
+    text-align: center;
+    margin-top: 45px;
+    width: 721px;
+}
+
+.home-btn{
+    background-color: #4caf50;
+    padding: 11px 19px;
+    margin-top: 45px;
+    border-radius: 3%;
+    text-transform: uppercase;
+    color: #fafafa;
+    text-decoration: none;
+    transition: 0.2s ease-in-out;
+}
+
+.home-btn:hover{
+    background-color: #fafafa;
+    color: black;
+}
+
